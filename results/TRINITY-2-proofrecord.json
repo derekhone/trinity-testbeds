@@ -1,0 +1,369 @@
+{
+  "action_decision": "AUTHORIZED",
+  "aggregate_verdict": "ALLOW",
+  "chain": {
+    "manifest_harness_sha256": "eb55459658127b9720b5692d6e2e502fef4ebecb43b3f7c4f7ef17046251a1bc",
+    "manifest_prereg_sha256": "8a887fba2558b25e51e39af6a6800da59accc16371961baa9b7ce42520c4e7c0",
+    "previous_record_hash": "8d23accac81791fa10f1dba1be79a132168966c4620fc42d16de656bcf9d688b",
+    "previous_record_label": "TRINITY-1"
+  },
+  "circuits": {
+    "a0b0": {
+      "n_qubits": 2,
+      "qasm_sha256": "3914da8c86665654feb332759c3670b21d8e8253c12b6b0700cb41835a8b8b2f"
+    },
+    "a0b1": {
+      "n_qubits": 2,
+      "qasm_sha256": "818e6eb129ee2f3ef8c2125a0983f40f5bba1e26599af2c7054130f5ca458d34"
+    },
+    "a1b0": {
+      "n_qubits": 2,
+      "qasm_sha256": "51bacfb7df357f3335c74dfbf12f05f7d3decca18565e1257ecc0d231c2d1e61"
+    },
+    "a1b1": {
+      "n_qubits": 2,
+      "qasm_sha256": "8c6cc894938a87f01a06ecd1cb4116bd6e584f03778158de05c0a75d6c5ad734"
+    }
+  },
+  "device_substitutions": [],
+  "devices": [
+    {
+      "backend": "aer_sim::kingston-sim",
+      "calibration_snapshot": {
+        "backend_name": "aer_sim::kingston-sim",
+        "backend_version": "aer-sim-1",
+        "basis_gates": [
+          "ry",
+          "h",
+          "cx",
+          "measure"
+        ],
+        "coupling_map_fingerprint": "0b66b2b0c9bc3f8f798d9f9cb659af471f45d41672103146340c42951256d136",
+        "n_qubits": 2,
+        "qubits": [
+          {
+            "T1_us": 116.612,
+            "T2_us": 61.174,
+            "frequency_ghz": 4.83651,
+            "qubit": 0,
+            "readout_error": 0.0257
+          },
+          {
+            "T1_us": 77.66,
+            "T2_us": 86.523,
+            "frequency_ghz": 4.74566,
+            "qubit": 1,
+            "readout_error": 0.02739
+          }
+        ],
+        "single_qubit_depolarizing": 0.002,
+        "two_qubit_depolarizing": 0.01
+      },
+      "calibration_snapshot_hash": "4b51b3156dcdc285c63d5666e2907a6d4f4e2359c9f6100edc3f83f2f1c76bdc",
+      "device_witness_hash": "a40e95b18158772453cf08540f0c93d3a8c5c08fa8024f4423b9326a1d8817a9",
+      "job_id": "SIM-kingston-sim-101",
+      "qubit_mapping": {
+        "a0b0": [
+          0,
+          1
+        ],
+        "a0b1": [
+          0,
+          1
+        ],
+        "a1b0": [
+          0,
+          1
+        ],
+        "a1b1": [
+          0,
+          1
+        ]
+      },
+      "raw_counts": {
+        "a0b0": {
+          "00": 1772,
+          "01": 283,
+          "10": 299,
+          "11": 1646
+        },
+        "a0b1": {
+          "00": 275,
+          "01": 1646,
+          "10": 1765,
+          "11": 314
+        },
+        "a1b0": {
+          "00": 1711,
+          "01": 292,
+          "10": 321,
+          "11": 1676
+        },
+        "a1b1": {
+          "00": 1681,
+          "01": 302,
+          "10": 342,
+          "11": 1675
+        }
+      },
+      "slot": "D1",
+      "witness": {
+        "S": 2.786,
+        "backend": "aer_sim::kingston-sim",
+        "classical_bound": 2.0,
+        "correlators": {
+          "a0b0": 0.709,
+          "a0b1": -0.7055,
+          "a1b0": 0.6935,
+          "a1b1": 0.678
+        },
+        "k_margin": 2,
+        "n_sigma": 24.8555,
+        "pass": true,
+        "shots_per_setting": 4000,
+        "sigma": 0.031623,
+        "slot": "D1",
+        "tsirelson": 2.828427,
+        "verdict": "PASS"
+      }
+    },
+    {
+      "backend": "aer_sim::fez-sim",
+      "calibration_snapshot": {
+        "backend_name": "aer_sim::fez-sim",
+        "backend_version": "aer-sim-1",
+        "basis_gates": [
+          "ry",
+          "h",
+          "cx",
+          "measure"
+        ],
+        "coupling_map_fingerprint": "94b71098a61acac4fcf7cbc2b7541c0903432c5b694561b465e153daa813958c",
+        "n_qubits": 2,
+        "qubits": [
+          {
+            "T1_us": 80.777,
+            "T2_us": 64.965,
+            "frequency_ghz": 4.875,
+            "qubit": 0,
+            "readout_error": 0.02632
+          },
+          {
+            "T1_us": 78.026,
+            "T2_us": 64.806,
+            "frequency_ghz": 4.9347,
+            "qubit": 1,
+            "readout_error": 0.02127
+          }
+        ],
+        "single_qubit_depolarizing": 0.003,
+        "two_qubit_depolarizing": 0.014
+      },
+      "calibration_snapshot_hash": "edbbcdb503b47ac79e5ddf3b3c2ed99cfac052210fd8622affa763d3b26bac82",
+      "device_witness_hash": "750e68c2ae55de75dd0a2c567563aeea2c60c26d454d516ef14c99c26291c512",
+      "job_id": "SIM-fez-sim-202",
+      "qubit_mapping": {
+        "a0b0": [
+          0,
+          1
+        ],
+        "a0b1": [
+          0,
+          1
+        ],
+        "a1b0": [
+          0,
+          1
+        ],
+        "a1b1": [
+          0,
+          1
+        ]
+      },
+      "raw_counts": {
+        "a0b0": {
+          "00": 1716,
+          "01": 279,
+          "10": 300,
+          "11": 1705
+        },
+        "a0b1": {
+          "00": 274,
+          "01": 1645,
+          "10": 1722,
+          "11": 359
+        },
+        "a1b0": {
+          "00": 1673,
+          "01": 297,
+          "10": 317,
+          "11": 1713
+        },
+        "a1b1": {
+          "00": 1665,
+          "01": 302,
+          "10": 354,
+          "11": 1679
+        }
+      },
+      "slot": "D2",
+      "witness": {
+        "S": 2.759,
+        "backend": "aer_sim::fez-sim",
+        "classical_bound": 2.0,
+        "correlators": {
+          "a0b0": 0.7105,
+          "a0b1": -0.6835,
+          "a1b0": 0.693,
+          "a1b1": 0.672
+        },
+        "k_margin": 2,
+        "n_sigma": 24.0017,
+        "pass": true,
+        "shots_per_setting": 4000,
+        "sigma": 0.031623,
+        "slot": "D2",
+        "tsirelson": 2.828427,
+        "verdict": "PASS"
+      }
+    },
+    {
+      "backend": "aer_sim::marrakesh-sim",
+      "calibration_snapshot": {
+        "backend_name": "aer_sim::marrakesh-sim",
+        "backend_version": "aer-sim-1",
+        "basis_gates": [
+          "ry",
+          "h",
+          "cx",
+          "measure"
+        ],
+        "coupling_map_fingerprint": "4e5b8e43c2e71d9de78e394e02813fd538ba4999c4c1b64cd8cadd0f2c1936a8",
+        "n_qubits": 2,
+        "qubits": [
+          {
+            "T1_us": 72.866,
+            "T2_us": 63.757,
+            "frequency_ghz": 4.70957,
+            "qubit": 0,
+            "readout_error": 0.02615
+          },
+          {
+            "T1_us": 108.947,
+            "T2_us": 49.843,
+            "frequency_ghz": 4.93553,
+            "qubit": 1,
+            "readout_error": 0.01873
+          }
+        ],
+        "single_qubit_depolarizing": 0.004,
+        "two_qubit_depolarizing": 0.018
+      },
+      "calibration_snapshot_hash": "a06d43caaaa6f139be0c46c10e496230a3c84b077dd43167301928e6c2f23c08",
+      "device_witness_hash": "2de3468ad5c720b1f5f9f796db85388876849f53e4780d08ec9f22d9fe79da5d",
+      "job_id": "SIM-marrakesh-sim-303",
+      "qubit_mapping": {
+        "a0b0": [
+          0,
+          1
+        ],
+        "a0b1": [
+          0,
+          1
+        ],
+        "a1b0": [
+          0,
+          1
+        ],
+        "a1b1": [
+          0,
+          1
+        ]
+      },
+      "raw_counts": {
+        "a0b0": {
+          "00": 1731,
+          "01": 291,
+          "10": 279,
+          "11": 1699
+        },
+        "a0b1": {
+          "00": 291,
+          "01": 1699,
+          "10": 1695,
+          "11": 315
+        },
+        "a1b0": {
+          "00": 1683,
+          "01": 315,
+          "10": 336,
+          "11": 1666
+        },
+        "a1b1": {
+          "00": 1682,
+          "01": 294,
+          "10": 314,
+          "11": 1710
+        }
+      },
+      "slot": "D3",
+      "witness": {
+        "S": 2.7825,
+        "backend": "aer_sim::marrakesh-sim",
+        "classical_bound": 2.0,
+        "correlators": {
+          "a0b0": 0.715,
+          "a0b1": -0.697,
+          "a1b0": 0.6745,
+          "a1b1": 0.696
+        },
+        "k_margin": 2,
+        "n_sigma": 24.7448,
+        "pass": true,
+        "shots_per_setting": 4000,
+        "sigma": 0.031623,
+        "slot": "D3",
+        "tsirelson": 2.828427,
+        "verdict": "PASS"
+      }
+    }
+  ],
+  "distinct_devices": 3,
+  "experiment": "TRINITY-2",
+  "external_entropy": {
+    "ligo_gw150914_hash": "66c4b196",
+    "nist_beacon_pulse": 1865865,
+    "nist_timestamp": "2026-07-19T05:05:00.000Z",
+    "nist_value": "EE1AA562B143CC84ABDCD28AC68EDD022398A1061715BB6B15C1F957D6CF987CB6161DDF3BC9146B97A7CCCC9DE6F6F0C21CD6C7931EBA7FDA0DCFC7046E743A"
+  },
+  "framework": "Coherent Inheritance Framework (CIF)",
+  "fused_nonce": "9096f8fb3e76f99befd21b2c3c52b03e91348550555510eaf52021f2b73b749b",
+  "generated_at": "2026-07-19T05:08:15.839976+00:00",
+  "governance": "ExecutionProof",
+  "governed_action": {
+    "action_type": "payment_authorization",
+    "amount": 500000,
+    "currency": "USD",
+    "decided_at": "2026-07-19T05:08:15.837869+00:00",
+    "decision": "AUTHORIZED",
+    "governed_by_verdict": "ALLOW",
+    "payee_ref": "SIMULATED-PAYEE-0001",
+    "policy_ref": "RF-100/multi-root-quorum-v1",
+    "simulated": true
+  },
+  "governed_action_hash": "715925f018666e72189135553020f162c30d7fd17fd6f9d3c08a1db53ad3a7de",
+  "mode": "SIMULATOR",
+  "public_claim": "A preregistered demonstration in which a simulated high-impact action is allowed, held, or denied by a Bell-CHSH witness independently evaluated on three quantum processors and fused into one chain-linked, independently reconstructable ExecutionProof record, with a quorum + substitution rule governing processor unavailability.",
+  "quorum": {
+    "degraded_quorum": false,
+    "full": 3,
+    "required": 2,
+    "valid_devices": 3
+  },
+  "record_hash": "a5be2a817b5c8e706aadf92a500805ad3e32e7c009087b0006cf7af605da99f9",
+  "schema": "trinity-proofrecord-2.0",
+  "shots_per_circuit": 4000,
+  "shots_total": 48000,
+  "trinity_certified": true,
+  "witness_type": "Bell-CHSH"
+}

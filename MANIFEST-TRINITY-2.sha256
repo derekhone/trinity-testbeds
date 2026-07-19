@@ -1,0 +1,5 @@
+# TRINITY-2 preregistration lock — SHA-256
+# Locked before hardware execution. Any change to these files breaks the lock.
+8a887fba2558b25e51e39af6a6800da59accc16371961baa9b7ce42520c4e7c0  TRINITY-2-preregistration.md
+eb55459658127b9720b5692d6e2e502fef4ebecb43b3f7c4f7ef17046251a1bc  trinity2_harness.py
+65f205deaba80a1db52c9cf01a4c3f5699bd482638090db52f45bbc41b600198  trinity2_verify.py

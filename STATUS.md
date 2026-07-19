@@ -1,6 +1,45 @@
-# TRINITY-1 — STATUS
+# TRINITY — STATUS
 
 **Remnant Fieldworks Inc. · Coherent Inheritance Framework (CIF) · ExecutionProof-governed**
+
+---
+
+## TRINITY-2 — The Governed Action — SIMULATOR-VALIDATED, HARDWARE GATED
+
+**As of 2026-07-19:** harness + verifier built, **all simulator validation PASSED**, manifest
+locked (`MANIFEST-TRINITY-2.sha256`). **Hardware run withheld** pending (a) IBM token rotation
+and (b) Derek's explicit authorization.
+
+TRINITY-2 extends TRINITY-1 by binding the fused three-processor verdict to a **simulated
+$500,000 payment authorization**, with a preregistered **quorum (≥2 of 3) + substitution /
+failover** rule and full **calibration-snapshot hashing**. The payment is simulated — no real
+funds, rail, or authority.
+
+**Simulator validation (three independent noisy aer backends) — all branches confirmed + independently verified:**
+
+| Scenario | Devices | Aggregate verdict | Action decision | Verifier |
+|---|---|---|---|---|
+| NOMINAL   | 3× PASS | **ALLOW** | AUTHORIZED | PASS |
+| DEGRADED  | 2× PASS (1 device down) | **HOLD** | HELD_FOR_HUMAN_CONFIRMATION | PASS |
+| DENY      | 2 PASS + 1 dissenting FAIL | **DENY** | DENIED | PASS |
+| GATE-STOP | 1 device (sub-quorum) | **GATE-STOP** | DENIED | PASS |
+| TAMPER    | flip a raw count post-hoc | (recompute) | — | **FAIL as required** (record_hash mismatch caught) |
+| TAMPER    | force decision AUTHORIZED under DENY | (recompute) | — | **FAIL as required** |
+
+- Kill-condition self-check active: harness exits non-zero if it ever emits ALLOW while a device
+  is not PASS, under degraded quorum, or with fewer than 3 distinct devices.
+- Independent verifier reconstructs every S, arm verdict, `device_witness_hash`,
+  `calibration_snapshot_hash`, quorum, aggregate verdict, **the governed-action decision**,
+  `governed_action_hash`, `fused_nonce`, and `record_hash` from raw counts — no qiskit.
+- Schema `trinity-proofrecord-2.0`. Chain link → TRINITY-1 record hash
+  `8d23accac81791fa10f1dba1be79a132168966c4620fc42d16de656bcf9d688b`.
+
+**Next (needs Derek):** approve → rotate IBM token → run `python3 trinity2_harness.py
+--authorize-hardware --allow-unrotated` with `IBM_QUANTUM_TOKEN` set → verify → publish.
+
+---
+
+## TRINITY-1 — The Three-Processor Witness — HARDWARE COMPLETE
 **As of:** hardware run **COMPLETE**, independently verified, aggregate verdict **ALLOW**.
 
 ## Result (live IBM Heron r2 hardware)
