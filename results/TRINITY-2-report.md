@@ -3,9 +3,9 @@
 **Remnant Fieldworks Inc. · Coherent Inheritance Framework (CIF) · ExecutionProof-governed**
 
 - Experiment: **TRINITY-2**  ·  Schema: `trinity-proofrecord-2.0`
-- Mode: **SIMULATOR**  ·  Witness: **Bell-CHSH**
+- Mode: **HARDWARE**  ·  Witness: **Bell-CHSH**
 - Distinct devices: **3**  ·  Shots total: **48,000**
-- Generated: 2026-07-19T05:08:15.839976+00:00
+- Generated: 2026-07-19T06:38:39.732244+00:00
 
 > **Public claim:** A preregistered demonstration in which a simulated high-impact action is allowed, held, or denied by a Bell-CHSH witness independently evaluated on three quantum processors and fused into one chain-linked, independently reconstructable ExecutionProof record, with a quorum + substitution rule governing processor unavailability.
 
@@ -29,9 +29,9 @@ Quorum: required **2** of **3** · valid devices **3** · degraded_quorum **Fals
 
 | Slot | Backend | S | nσ | Arm | Calib snapshot | Job |
 |---|---|---|---|---|---|---|
-| D1 | `aer_sim::kingston-sim` | 2.786 | 24.8555 | PASS | `4b51b3156dcd…` | `SIM-kingston-sim-101` |
-| D2 | `aer_sim::fez-sim` | 2.759 | 24.0017 | PASS | `edbbcdb503b4…` | `SIM-fez-sim-202` |
-| D3 | `aer_sim::marrakesh-sim` | 2.7825 | 24.7448 | PASS | `a06d43caaaa6…` | `SIM-marrakesh-sim-303` |
+| D1 | `ibm_kingston` | 2.765 | 24.1914 | PASS | `8dfb225a36de…` | `d9e7029htsac739dt2mg` |
+| D2 | `ibm_fez` | 2.7235 | 22.8791 | PASS | `d92954bcb872…` | `d9e71lqneu4c739o3otg` |
+| D3 | `ibm_marrakesh` | 2.7235 | 22.8791 | PASS | `6e27bdb1c24b…` | `d9e71pcjeosc73fie1r0` |
 
 Classical bound |S| ≤ 2.0 · Tsirelson 2√2 ≈ 2.828 · PASS iff S − 2σ > 2.0 · FAIL iff S + 2σ ≤ 2.0 · else INDETERMINATE.
 
@@ -39,11 +39,11 @@ Classical bound |S| ≤ 2.0 · Tsirelson 2√2 ≈ 2.828 · PASS iff S − 2σ >
 - none
 
 ## Fusion & provenance
-- Fused nonce: `9096f8fb3e76f99befd21b2c3c52b03e91348550555510eaf52021f2b73b749b`
-- Governed-action hash: `715925f018666e72189135553020f162c30d7fd17fd6f9d3c08a1db53ad3a7de`
-- Record hash: `a5be2a817b5c8e706aadf92a500805ad3e32e7c009087b0006cf7af605da99f9`
+- Fused nonce: `aa527fe2bb3b6d80e3ec78ab1558521a7b744f94235d805623129acf468602b2`
+- Governed-action hash: `f3fb2c32dfe32f67388335b082e606ee6f225b2d1f00611562a9926b9fea3d41`
+- Record hash: `4f6fa000e2bf3976a1d575267ecf188baf42f1c6caea9e717bf1fc1be6737dd0`
 - Chain — previous record (TRINITY-1): `8d23accac81791fa10f1dba1be79a132168966c4620fc42d16de656bcf9d688b`
-- NIST beacon pulse: `1865865` @ 2026-07-19T05:05:00.000Z
+- NIST beacon pulse: `1865951` @ 2026-07-19T06:31:00.000Z
 - LIGO GW150914 anchor: `66c4b196`
 - Manifest (prereg): `8a887fba2558b25e51e39af6a6800da59accc16371961baa9b7ce42520c4e7c0`
 - Manifest (harness): `eb55459658127b9720b5692d6e2e502fef4ebecb43b3f7c4f7ef17046251a1bc`

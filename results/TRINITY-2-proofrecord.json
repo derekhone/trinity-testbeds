@@ -28,97 +28,1175 @@
   "device_substitutions": [],
   "devices": [
     {
-      "backend": "aer_sim::kingston-sim",
+      "backend": "ibm_kingston",
       "calibration_snapshot": {
-        "backend_name": "aer_sim::kingston-sim",
-        "backend_version": "aer-sim-1",
+        "backend_name": "ibm_kingston",
+        "backend_version": "2",
         "basis_gates": [
-          "ry",
-          "h",
-          "cx",
-          "measure"
+          "cz",
+          "id",
+          "rz",
+          "sx",
+          "x"
         ],
-        "coupling_map_fingerprint": "0b66b2b0c9bc3f8f798d9f9cb659af471f45d41672103146340c42951256d136",
-        "n_qubits": 2,
+        "coupling_map_fingerprint": "c046a8055488d506935a65d193d209da5b0c891a8b54f59361c7f7b30fed7fcf",
+        "last_update_date": "2026-07-19 06:10:39+00:00",
+        "n_qubits": 156,
         "qubits": [
           {
-            "T1_us": 116.612,
-            "T2_us": 61.174,
-            "frequency_ghz": 4.83651,
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
             "qubit": 0,
-            "readout_error": 0.0257
+            "readout_error": null
           },
           {
-            "T1_us": 77.66,
-            "T2_us": 86.523,
-            "frequency_ghz": 4.74566,
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
             "qubit": 1,
-            "readout_error": 0.02739
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 2,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 3,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 4,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 5,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 6,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 7,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 8,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 9,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 10,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 11,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 12,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 13,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 14,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 15,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 16,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 17,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 18,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 19,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 20,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 21,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 22,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 23,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 24,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 25,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 26,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 27,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 28,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 29,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 30,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 31,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 32,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 33,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 34,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 35,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 36,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 37,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 38,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 39,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 40,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 41,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 42,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 43,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 44,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 45,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 46,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 47,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 48,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 49,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 50,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 51,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 52,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 53,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 54,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 55,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 56,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 57,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 58,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 59,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 60,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 61,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 62,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 63,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 64,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 65,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 66,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 67,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 68,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 69,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 70,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 71,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 72,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 73,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 74,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 75,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 76,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 77,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 78,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 79,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 80,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 81,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 82,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 83,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 84,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 85,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 86,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 87,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 88,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 89,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 90,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 91,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 92,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 93,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 94,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 95,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 96,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 97,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 98,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 99,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 100,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 101,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 102,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 103,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 104,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 105,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 106,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 107,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 108,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 109,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 110,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 111,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 112,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 113,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 114,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 115,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 116,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 117,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 118,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 119,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 120,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 121,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 122,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 123,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 124,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 125,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 126,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 127,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 128,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 129,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 130,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 131,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 132,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 133,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 134,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 135,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 136,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 137,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 138,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 139,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 140,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 141,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 142,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 143,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 144,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 145,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 146,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 147,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 148,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 149,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 150,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 151,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 152,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 153,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 154,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 155,
+            "readout_error": null
           }
-        ],
-        "single_qubit_depolarizing": 0.002,
-        "two_qubit_depolarizing": 0.01
+        ]
       },
-      "calibration_snapshot_hash": "4b51b3156dcdc285c63d5666e2907a6d4f4e2359c9f6100edc3f83f2f1c76bdc",
-      "device_witness_hash": "a40e95b18158772453cf08540f0c93d3a8c5c08fa8024f4423b9326a1d8817a9",
-      "job_id": "SIM-kingston-sim-101",
+      "calibration_snapshot_hash": "8dfb225a36de14c46277be0ecc70ad231926bc29af7a87e5e4e335f5e53978d0",
+      "device_witness_hash": "2074ce3397e82e655354fe77a0215d17e406cf10791b0eb50409a3f606efc83e",
+      "job_id": "d9e7029htsac739dt2mg",
       "qubit_mapping": {
         "a0b0": [
-          0,
-          1
+          149,
+          148
         ],
         "a0b1": [
-          0,
-          1
+          149,
+          148
         ],
         "a1b0": [
-          0,
-          1
+          149,
+          148
         ],
         "a1b1": [
-          0,
-          1
+          149,
+          148
         ]
       },
       "raw_counts": {
         "a0b0": {
-          "00": 1772,
-          "01": 283,
-          "10": 299,
-          "11": 1646
+          "00": 1741,
+          "01": 311,
+          "10": 307,
+          "11": 1641
         },
         "a0b1": {
-          "00": 275,
-          "01": 1646,
-          "10": 1765,
-          "11": 314
+          "00": 317,
+          "01": 1702,
+          "10": 1696,
+          "11": 285
         },
         "a1b0": {
-          "00": 1711,
-          "01": 292,
-          "10": 321,
-          "11": 1676
+          "00": 1743,
+          "01": 317,
+          "10": 276,
+          "11": 1664
         },
         "a1b1": {
-          "00": 1681,
-          "01": 302,
-          "10": 342,
-          "11": 1675
+          "00": 1759,
+          "01": 305,
+          "10": 352,
+          "11": 1584
         }
       },
       "slot": "D1",
       "witness": {
-        "S": 2.786,
-        "backend": "aer_sim::kingston-sim",
+        "S": 2.765,
+        "backend": "ibm_kingston",
         "classical_bound": 2.0,
         "correlators": {
-          "a0b0": 0.709,
-          "a0b1": -0.7055,
-          "a1b0": 0.6935,
-          "a1b1": 0.678
+          "a0b0": 0.691,
+          "a0b1": -0.699,
+          "a1b0": 0.7035,
+          "a1b1": 0.6715
         },
         "k_margin": 2,
-        "n_sigma": 24.8555,
+        "n_sigma": 24.1914,
         "pass": true,
         "shots_per_setting": 4000,
         "sigma": 0.031623,
@@ -128,97 +1206,1175 @@
       }
     },
     {
-      "backend": "aer_sim::fez-sim",
+      "backend": "ibm_fez",
       "calibration_snapshot": {
-        "backend_name": "aer_sim::fez-sim",
-        "backend_version": "aer-sim-1",
+        "backend_name": "ibm_fez",
+        "backend_version": "2",
         "basis_gates": [
-          "ry",
-          "h",
-          "cx",
-          "measure"
+          "cz",
+          "id",
+          "rz",
+          "sx",
+          "x"
         ],
-        "coupling_map_fingerprint": "94b71098a61acac4fcf7cbc2b7541c0903432c5b694561b465e153daa813958c",
-        "n_qubits": 2,
+        "coupling_map_fingerprint": "c046a8055488d506935a65d193d209da5b0c891a8b54f59361c7f7b30fed7fcf",
+        "last_update_date": "2026-07-19 06:04:50+00:00",
+        "n_qubits": 156,
         "qubits": [
           {
-            "T1_us": 80.777,
-            "T2_us": 64.965,
-            "frequency_ghz": 4.875,
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
             "qubit": 0,
-            "readout_error": 0.02632
+            "readout_error": null
           },
           {
-            "T1_us": 78.026,
-            "T2_us": 64.806,
-            "frequency_ghz": 4.9347,
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
             "qubit": 1,
-            "readout_error": 0.02127
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 2,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 3,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 4,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 5,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 6,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 7,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 8,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 9,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 10,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 11,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 12,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 13,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 14,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 15,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 16,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 17,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 18,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 19,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 20,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 21,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 22,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 23,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 24,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 25,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 26,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 27,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 28,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 29,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 30,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 31,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 32,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 33,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 34,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 35,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 36,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 37,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 38,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 39,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 40,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 41,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 42,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 43,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 44,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 45,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 46,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 47,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 48,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 49,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 50,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 51,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 52,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 53,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 54,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 55,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 56,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 57,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 58,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 59,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 60,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 61,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 62,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 63,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 64,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 65,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 66,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 67,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 68,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 69,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 70,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 71,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 72,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 73,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 74,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 75,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 76,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 77,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 78,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 79,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 80,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 81,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 82,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 83,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 84,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 85,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 86,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 87,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 88,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 89,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 90,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 91,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 92,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 93,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 94,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 95,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 96,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 97,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 98,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 99,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 100,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 101,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 102,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 103,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 104,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 105,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 106,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 107,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 108,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 109,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 110,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 111,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 112,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 113,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 114,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 115,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 116,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 117,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 118,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 119,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 120,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 121,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 122,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 123,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 124,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 125,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 126,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 127,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 128,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 129,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 130,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 131,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 132,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 133,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 134,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 135,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 136,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 137,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 138,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 139,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 140,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 141,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 142,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 143,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 144,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 145,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 146,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 147,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 148,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 149,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 150,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 151,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 152,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 153,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 154,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 155,
+            "readout_error": null
           }
-        ],
-        "single_qubit_depolarizing": 0.003,
-        "two_qubit_depolarizing": 0.014
+        ]
       },
-      "calibration_snapshot_hash": "edbbcdb503b47ac79e5ddf3b3c2ed99cfac052210fd8622affa763d3b26bac82",
-      "device_witness_hash": "750e68c2ae55de75dd0a2c567563aeea2c60c26d454d516ef14c99c26291c512",
-      "job_id": "SIM-fez-sim-202",
+      "calibration_snapshot_hash": "d92954bcb872a485022fad20ecd7827668803a4273ca463884cfa861892beacb",
+      "device_witness_hash": "e171fd352302fb475b6385bf2ee1f73ea6de01eedd43dbe1e9d1d40bf808d092",
+      "job_id": "d9e71lqneu4c739o3otg",
       "qubit_mapping": {
         "a0b0": [
-          0,
-          1
+          114,
+          115
         ],
         "a0b1": [
-          0,
-          1
+          114,
+          115
         ],
         "a1b0": [
-          0,
-          1
+          114,
+          115
         ],
         "a1b1": [
-          0,
-          1
+          114,
+          115
         ]
       },
       "raw_counts": {
         "a0b0": {
-          "00": 1716,
-          "01": 279,
-          "10": 300,
-          "11": 1705
+          "00": 1693,
+          "01": 322,
+          "10": 321,
+          "11": 1664
         },
         "a0b1": {
-          "00": 274,
-          "01": 1645,
-          "10": 1722,
-          "11": 359
+          "00": 367,
+          "01": 1629,
+          "10": 1698,
+          "11": 306
         },
         "a1b0": {
-          "00": 1673,
-          "01": 297,
-          "10": 317,
-          "11": 1713
+          "00": 1807,
+          "01": 334,
+          "10": 280,
+          "11": 1579
         },
         "a1b1": {
-          "00": 1665,
-          "01": 302,
-          "10": 354,
-          "11": 1679
+          "00": 1704,
+          "01": 296,
+          "10": 327,
+          "11": 1673
         }
       },
       "slot": "D2",
       "witness": {
-        "S": 2.759,
-        "backend": "aer_sim::fez-sim",
+        "S": 2.7235,
+        "backend": "ibm_fez",
         "classical_bound": 2.0,
         "correlators": {
-          "a0b0": 0.7105,
-          "a0b1": -0.6835,
+          "a0b0": 0.6785,
+          "a0b1": -0.6635,
           "a1b0": 0.693,
-          "a1b1": 0.672
+          "a1b1": 0.6885
         },
         "k_margin": 2,
-        "n_sigma": 24.0017,
+        "n_sigma": 22.8791,
         "pass": true,
         "shots_per_setting": 4000,
         "sigma": 0.031623,
@@ -228,97 +2384,1175 @@
       }
     },
     {
-      "backend": "aer_sim::marrakesh-sim",
+      "backend": "ibm_marrakesh",
       "calibration_snapshot": {
-        "backend_name": "aer_sim::marrakesh-sim",
-        "backend_version": "aer-sim-1",
+        "backend_name": "ibm_marrakesh",
+        "backend_version": "2",
         "basis_gates": [
-          "ry",
-          "h",
-          "cx",
-          "measure"
+          "cz",
+          "id",
+          "rz",
+          "sx",
+          "x"
         ],
-        "coupling_map_fingerprint": "4e5b8e43c2e71d9de78e394e02813fd538ba4999c4c1b64cd8cadd0f2c1936a8",
-        "n_qubits": 2,
+        "coupling_map_fingerprint": "c046a8055488d506935a65d193d209da5b0c891a8b54f59361c7f7b30fed7fcf",
+        "last_update_date": "2026-07-19 05:40:58+00:00",
+        "n_qubits": 156,
         "qubits": [
           {
-            "T1_us": 72.866,
-            "T2_us": 63.757,
-            "frequency_ghz": 4.70957,
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
             "qubit": 0,
-            "readout_error": 0.02615
+            "readout_error": null
           },
           {
-            "T1_us": 108.947,
-            "T2_us": 49.843,
-            "frequency_ghz": 4.93553,
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
             "qubit": 1,
-            "readout_error": 0.01873
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 2,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 3,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 4,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 5,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 6,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 7,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 8,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 9,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 10,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 11,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 12,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 13,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 14,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 15,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 16,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 17,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 18,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 19,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 20,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 21,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 22,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 23,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 24,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 25,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 26,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 27,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 28,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 29,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 30,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 31,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 32,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 33,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 34,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 35,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 36,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 37,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 38,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 39,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 40,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 41,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 42,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 43,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 44,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 45,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 46,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 47,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 48,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 49,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 50,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 51,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 52,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 53,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 54,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 55,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 56,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 57,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 58,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 59,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 60,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 61,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 62,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 63,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 64,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 65,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 66,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 67,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 68,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 69,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 70,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 71,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 72,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 73,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 74,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 75,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 76,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 77,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 78,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 79,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 80,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 81,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 82,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 83,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 84,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 85,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 86,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 87,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 88,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 89,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 90,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 91,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 92,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 93,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 94,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 95,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 96,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 97,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 98,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 99,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 100,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 101,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 102,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 103,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 104,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 105,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 106,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 107,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 108,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 109,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 110,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 111,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 112,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 113,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 114,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 115,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 116,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 117,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 118,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 119,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 120,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 121,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 122,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 123,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 124,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 125,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 126,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 127,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 128,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 129,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 130,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 131,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 132,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 133,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 134,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 135,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 136,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 137,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 138,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 139,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 140,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 141,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 142,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 143,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 144,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 145,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 146,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 147,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 148,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 149,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 150,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 151,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 152,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 153,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 154,
+            "readout_error": null
+          },
+          {
+            "T1_us": null,
+            "T2_us": null,
+            "frequency_ghz": null,
+            "qubit": 155,
+            "readout_error": null
           }
-        ],
-        "single_qubit_depolarizing": 0.004,
-        "two_qubit_depolarizing": 0.018
+        ]
       },
-      "calibration_snapshot_hash": "a06d43caaaa6f139be0c46c10e496230a3c84b077dd43167301928e6c2f23c08",
-      "device_witness_hash": "2de3468ad5c720b1f5f9f796db85388876849f53e4780d08ec9f22d9fe79da5d",
-      "job_id": "SIM-marrakesh-sim-303",
+      "calibration_snapshot_hash": "6e27bdb1c24b9778b4224591ca442d44ad281bbdaf535c152fd571500eb6f23b",
+      "device_witness_hash": "652b00e49cb560f32c88a2e6010111a92a85bdf8c58ea6ddb585afd746a9b3c3",
+      "job_id": "d9e71pcjeosc73fie1r0",
       "qubit_mapping": {
         "a0b0": [
-          0,
-          1
+          148,
+          147
         ],
         "a0b1": [
-          0,
-          1
+          148,
+          147
         ],
         "a1b0": [
-          0,
-          1
+          148,
+          147
         ],
         "a1b1": [
-          0,
-          1
+          148,
+          147
         ]
       },
       "raw_counts": {
         "a0b0": {
-          "00": 1731,
-          "01": 291,
-          "10": 279,
-          "11": 1699
+          "00": 1745,
+          "01": 377,
+          "10": 327,
+          "11": 1551
         },
         "a0b1": {
-          "00": 291,
-          "01": 1699,
-          "10": 1695,
-          "11": 315
+          "00": 346,
+          "01": 1653,
+          "10": 1732,
+          "11": 269
         },
         "a1b0": {
-          "00": 1683,
-          "01": 315,
-          "10": 336,
-          "11": 1666
+          "00": 1809,
+          "01": 292,
+          "10": 263,
+          "11": 1636
         },
         "a1b1": {
-          "00": 1682,
-          "01": 294,
-          "10": 314,
-          "11": 1710
+          "00": 1665,
+          "01": 297,
+          "10": 382,
+          "11": 1656
         }
       },
       "slot": "D3",
       "witness": {
-        "S": 2.7825,
-        "backend": "aer_sim::marrakesh-sim",
+        "S": 2.7235,
+        "backend": "ibm_marrakesh",
         "classical_bound": 2.0,
         "correlators": {
-          "a0b0": 0.715,
-          "a0b1": -0.697,
-          "a1b0": 0.6745,
-          "a1b1": 0.696
+          "a0b0": 0.648,
+          "a0b1": -0.6925,
+          "a1b0": 0.7225,
+          "a1b1": 0.6605
         },
         "k_margin": 2,
-        "n_sigma": 24.7448,
+        "n_sigma": 22.8791,
         "pass": true,
         "shots_per_setting": 4000,
         "sigma": 0.031623,
@@ -332,27 +3566,27 @@
   "experiment": "TRINITY-2",
   "external_entropy": {
     "ligo_gw150914_hash": "66c4b196",
-    "nist_beacon_pulse": 1865865,
-    "nist_timestamp": "2026-07-19T05:05:00.000Z",
-    "nist_value": "EE1AA562B143CC84ABDCD28AC68EDD022398A1061715BB6B15C1F957D6CF987CB6161DDF3BC9146B97A7CCCC9DE6F6F0C21CD6C7931EBA7FDA0DCFC7046E743A"
+    "nist_beacon_pulse": 1865951,
+    "nist_timestamp": "2026-07-19T06:31:00.000Z",
+    "nist_value": "ECE0A612A003044C7BEA3AE1C859CBCBD92F248DB7B3ADD5401C019793A14A2EB4680CCE09CE59785BF96E6C4C676509280E460314E99902D347015966EEA21D"
   },
   "framework": "Coherent Inheritance Framework (CIF)",
-  "fused_nonce": "9096f8fb3e76f99befd21b2c3c52b03e91348550555510eaf52021f2b73b749b",
-  "generated_at": "2026-07-19T05:08:15.839976+00:00",
+  "fused_nonce": "aa527fe2bb3b6d80e3ec78ab1558521a7b744f94235d805623129acf468602b2",
+  "generated_at": "2026-07-19T06:38:39.732244+00:00",
   "governance": "ExecutionProof",
   "governed_action": {
     "action_type": "payment_authorization",
     "amount": 500000,
     "currency": "USD",
-    "decided_at": "2026-07-19T05:08:15.837869+00:00",
+    "decided_at": "2026-07-19T06:38:39.730276+00:00",
     "decision": "AUTHORIZED",
     "governed_by_verdict": "ALLOW",
     "payee_ref": "SIMULATED-PAYEE-0001",
     "policy_ref": "RF-100/multi-root-quorum-v1",
     "simulated": true
   },
-  "governed_action_hash": "715925f018666e72189135553020f162c30d7fd17fd6f9d3c08a1db53ad3a7de",
-  "mode": "SIMULATOR",
+  "governed_action_hash": "f3fb2c32dfe32f67388335b082e606ee6f225b2d1f00611562a9926b9fea3d41",
+  "mode": "HARDWARE",
   "public_claim": "A preregistered demonstration in which a simulated high-impact action is allowed, held, or denied by a Bell-CHSH witness independently evaluated on three quantum processors and fused into one chain-linked, independently reconstructable ExecutionProof record, with a quorum + substitution rule governing processor unavailability.",
   "quorum": {
     "degraded_quorum": false,
@@ -360,7 +3594,7 @@
     "required": 2,
     "valid_devices": 3
   },
-  "record_hash": "a5be2a817b5c8e706aadf92a500805ad3e32e7c009087b0006cf7af605da99f9",
+  "record_hash": "4f6fa000e2bf3976a1d575267ecf188baf42f1c6caea9e717bf1fc1be6737dd0",
   "schema": "trinity-proofrecord-2.0",
   "shots_per_circuit": 4000,
   "shots_total": 48000,

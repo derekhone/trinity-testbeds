@@ -4,16 +4,43 @@
 
 ---
 
-## TRINITY-2 — The Governed Action — SIMULATOR-VALIDATED, HARDWARE GATED
+## TRINITY-2 — The Governed Action — HARDWARE COMPLETE, INDEPENDENTLY VERIFIED
 
-**As of 2026-07-19:** harness + verifier built, **all simulator validation PASSED**, manifest
-locked (`MANIFEST-TRINITY-2.sha256`). **Hardware run withheld** pending (a) IBM token rotation
-and (b) Derek's explicit authorization.
+**As of 2026-07-19:** executed on **three live IBM Heron r2 processors** after Derek rotated the
+IBM token and authorized the run. Manifest lock (`MANIFEST-TRINITY-2.sha256`) verified intact
+before execution. Aggregate verdict **ALLOW** → governed action **AUTHORIZED**; independent
+verifier **PASS**.
 
 TRINITY-2 extends TRINITY-1 by binding the fused three-processor verdict to a **simulated
 $500,000 payment authorization**, with a preregistered **quorum (≥2 of 3) + substitution /
 failover** rule and full **calibration-snapshot hashing**. The payment is simulated — no real
 funds, rail, or authority.
+
+### Result (live IBM Heron r2 hardware, 2026-07-19)
+
+| Slot | Backend | S | Verdict | Job |
+|---|---|---|---|---|
+| D1 | `ibm_kingston`  | 2.7650 | PASS | `d9e7029htsac739dt2mg` |
+| D2 | `ibm_fez`       | 2.7235 | PASS | `d9e71lqneu4c739o3otg` |
+| D3 | `ibm_marrakesh` | 2.7235 | PASS | `d9e71pcjeosc73fie1r0` |
+
+- Shots: 4 CHSH circuits × 4,000 × 3 devices = **48,000 total**. Classical bound |S| ≤ 2.0 ·
+  Tsirelson 2√2 ≈ 2.828.
+- Quorum: required **2** of **3** · valid devices **3** · degraded_quorum **False**.
+- Aggregate ExecutionProof verdict: **ALLOW** → governed action **AUTHORIZED** ·
+  `trinity_certified = True`.
+- Fused nonce: `aa527fe2bb3b6d80e3ec78ab1558521a7b744f94235d805623129acf468602b2`
+- Record hash: `4f6fa000e2bf3976a1d575267ecf188baf42f1c6caea9e717bf1fc1be6737dd0`
+- Chain link → TRINITY-1 record hash
+  `8d23accac81791fa10f1dba1be79a132168966c4620fc42d16de656bcf9d688b`.
+- **Independent verifier (`trinity2_verify.py`): PASS** — every S, arm verdict,
+  `device_witness_hash`, `calibration_snapshot_hash`, quorum, aggregate verdict, the
+  governed-action decision, `governed_action_hash`, `fused_nonce`, and `record_hash`
+  reconstructed from raw counts with no qiskit dependency; NIST + chain-link provenance OK.
+
+**Still open:** Zenodo publication (pending a rotated Zenodo token — GitHub push done).
+
+### Simulator validation (retained record — all branches confirmed pre-hardware)
 
 **Simulator validation (three independent noisy aer backends) — all branches confirmed + independently verified:**
 

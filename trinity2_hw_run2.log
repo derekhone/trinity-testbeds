@@ -1,0 +1,33 @@
+[TRINITY-2] Built 4 CHSH circuits (identical witness for every device).
+[TRINITY-2] Fetching NIST beacon (fresh not-before anchor)...
+[TRINITY-2] NIST pulse 1865951 @ 2026-07-19T06:31:00.000Z
+[TRINITY-2] Authorized hardware run (token from env:IBM_QUANTUM_TOKEN). Running three devices...
+qiskit_runtime_service._discover_account:WARNING:2026-07-19 06:34:45,893: Loading account with the given token. A saved account will not be used.
+qiskit_runtime_service.__init__:WARNING:2026-07-19 06:34:47,595: Instance was not set at service instantiation. Free and trial plan instances will be prioritized. Based on the following filters: (tags: None, region: us-east, eu-de), and available plans: (open), the available account instances are: open-instance. If you need a specific instance set it explicitly either by using a saved account with a saved default instance or passing it in directly to QiskitRuntimeService(). Alternatively, pass instance='auto' or save it to your account for auto-selection without warning.
+qiskit_runtime_service.backends:WARNING:2026-07-19 06:34:47,595: Using instance: open-instance, plan: open
+[TRINITY-2]   [ibm_kingston] submitted job d9e7029htsac739dt2mg; polling...
+[TRINITY-2]   D1 ibm_kingston: S=2.7650 (PASS)
+qiskit_runtime_service._discover_account:WARNING:2026-07-19 06:38:11,407: Loading account with the given token. A saved account will not be used.
+qiskit_runtime_service.__init__:WARNING:2026-07-19 06:38:13,224: Instance was not set at service instantiation. Free and trial plan instances will be prioritized. Based on the following filters: (tags: None, region: us-east, eu-de), and available plans: (open), the available account instances are: open-instance. If you need a specific instance set it explicitly either by using a saved account with a saved default instance or passing it in directly to QiskitRuntimeService(). Alternatively, pass instance='auto' or save it to your account for auto-selection without warning.
+qiskit_runtime_service.backends:WARNING:2026-07-19 06:38:13,224: Using instance: open-instance, plan: open
+[TRINITY-2]   [ibm_fez] submitted job d9e71lqneu4c739o3otg; polling...
+[TRINITY-2]   D2 ibm_fez: S=2.7235 (PASS)
+qiskit_runtime_service._discover_account:WARNING:2026-07-19 06:38:25,679: Loading account with the given token. A saved account will not be used.
+qiskit_runtime_service.__init__:WARNING:2026-07-19 06:38:27,630: Instance was not set at service instantiation. Free and trial plan instances will be prioritized. Based on the following filters: (tags: None, region: us-east, eu-de), and available plans: (open), the available account instances are: open-instance. If you need a specific instance set it explicitly either by using a saved account with a saved default instance or passing it in directly to QiskitRuntimeService(). Alternatively, pass instance='auto' or save it to your account for auto-selection without warning.
+qiskit_runtime_service.backends:WARNING:2026-07-19 06:38:27,630: Using instance: open-instance, plan: open
+/home/ubuntu/.local/lib/python3.11/site-packages/qiskit_ibm_runtime/qiskit_runtime_service.py:1256: UserWarning: This instance has met its usage limit. Workloads will not run until time ismade available. Check https://quantum.cloud.ibm.com/instances/crn%3Av1%3Abluemix%3Apublic%3Aquantum-computing%3Aus-east%3Aa%2F074ad0b4119241ee8fd51258f35aa4a6%3A97957880-e0cc-4c0e-a07e-f9b8f2da3be4%3A%3A for more details.
+  warnings.warn(
+[TRINITY-2]   [ibm_marrakesh] submitted job d9e71pcjeosc73fie1r0; polling...
+[TRINITY-2]   D3 ibm_marrakesh: S=2.7235 (PASS)
+[TRINITY-2] Report + ProofRecord written to /home/ubuntu/trinity-testbeds/results
+[TRINITY-2] ==============================================================================
+[TRINITY-2] D1 ibm_kingston               S=2.7650  PASS
+[TRINITY-2] D2 ibm_fez                    S=2.7235  PASS
+[TRINITY-2] D3 ibm_marrakesh              S=2.7235  PASS
+[TRINITY-2] QUORUM valid=3 degraded=False
+[TRINITY-2] AGGREGATE EXECUTIONPROOF VERDICT: ALLOW
+[TRINITY-2] GOVERNED ACTION DECISION:         AUTHORIZED
+[TRINITY-2] trinity_certified = True
+[TRINITY-2] fused_nonce = aa527fe2bb3b6d80e3ec78ab1558521a7b744f94235d805623129acf468602b2
+[TRINITY-2] record_hash = 4f6fa000e2bf3976a1d575267ecf188baf42f1c6caea9e717bf1fc1be6737dd0
+[TRINITY-2] ==============================================================================
