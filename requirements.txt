@@ -1,0 +1,6 @@
+qiskit>=1.2
+qiskit-ibm-runtime>=0.30
+qiskit-aer>=0.15
+numpy>=1.26
+requests>=2.31
+mthree>=2.6
