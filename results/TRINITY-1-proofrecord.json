@@ -1,7 +1,7 @@
 {
   "aggregate_verdict": "ALLOW",
   "chain": {
-    "manifest_harness_sha256": "a1b5f1789a15982baf03e88826d0789accaf41f9bf28e2be9f9b45bcb38d21a4",
+    "manifest_harness_sha256": "f41355a9e250f2896d078a27829b08b81167bbf8569a3ed3055fa5e172b70b3d",
     "manifest_prereg_sha256": "29d7c892daad271bbc6649cda2b29200f808219059f22b83ecfc185e20b28b61",
     "previous_record_hash": "22ffb2ba137c89c2846225c6d5a11fb2a4dc6aaa6a0ba1dfe6864bc50393bb0c",
     "previous_record_label": "OMNI-1"
@@ -27,67 +27,67 @@
   "device_substitutions": [],
   "devices": [
     {
-      "backend": "aer_sim::kingston-sim",
-      "calibration_hash": "3a3094c97fad3159ab2953abec280af48ffda2081fb7e27ffe945e59ea249802",
-      "device_witness_hash": "7b43e738c6f6e6ba51cf464e18e0cfd329c04fd5d203597061c9f4577a096c03",
-      "job_id": "SIM-kingston-sim-101",
+      "backend": "ibm_kingston",
+      "calibration_hash": "20f76cc953ff56641902913e8fb24f3d66d9ffda6d48644ae1b0d65dbc16e738",
+      "device_witness_hash": "1225c65bd4d332c09e62d77d6ea7cdbb45bba4db1cd27b65f9e4240041fca8cc",
+      "job_id": "d9e46lcjeosc73fiaj00",
       "qubit_mapping": {
         "a0b0": [
-          0,
-          1
+          149,
+          148
         ],
         "a0b1": [
-          0,
-          1
+          149,
+          148
         ],
         "a1b0": [
-          0,
-          1
+          149,
+          148
         ],
         "a1b1": [
-          0,
-          1
+          149,
+          148
         ]
       },
       "raw_counts": {
         "a0b0": {
-          "00": 1772,
-          "01": 283,
-          "10": 299,
-          "11": 1646
+          "00": 1691,
+          "01": 318,
+          "10": 313,
+          "11": 1678
         },
         "a0b1": {
-          "00": 275,
-          "01": 1646,
-          "10": 1765,
-          "11": 314
+          "00": 336,
+          "01": 1683,
+          "10": 1739,
+          "11": 242
         },
         "a1b0": {
-          "00": 1711,
-          "01": 292,
-          "10": 321,
-          "11": 1676
+          "00": 1698,
+          "01": 331,
+          "10": 322,
+          "11": 1649
         },
         "a1b1": {
-          "00": 1681,
-          "01": 302,
-          "10": 342,
-          "11": 1675
+          "00": 1718,
+          "01": 296,
+          "10": 370,
+          "11": 1616
         }
       },
       "slot": "D1",
       "witness": {
-        "S": 2.786,
-        "backend": "aer_sim::kingston-sim",
+        "S": 2.736,
+        "backend": "ibm_kingston",
         "certified": true,
         "classical_bound": 2.0,
         "correlators": {
-          "a0b0": 0.709,
-          "a0b1": -0.7055,
-          "a1b0": 0.6935,
-          "a1b1": 0.678
+          "a0b0": 0.6845,
+          "a0b1": -0.711,
+          "a1b0": 0.6735,
+          "a1b1": 0.667
         },
-        "n_sigma": 24.8555,
+        "n_sigma": 23.2744,
         "shots_per_setting": 4000,
         "slot": "D1",
         "threshold": 2.2,
@@ -96,67 +96,67 @@
       }
     },
     {
-      "backend": "aer_sim::fez-sim",
-      "calibration_hash": "11aeb7a7521ad00e8ec3a720d1fd01e16b2d69fc48ca753d1663d9156a37df8d",
-      "device_witness_hash": "0c80126c218b5aa40bb60cbf5d347f309997a003eff9970c6221984d819b5997",
-      "job_id": "SIM-fez-sim-202",
+      "backend": "ibm_fez",
+      "calibration_hash": "9be5597cf237e419ce4a085f7f3e5b42a7eaa23ed9cb2ed36829ed1b39d4dd42",
+      "device_witness_hash": "5de4244782f64b63397e3b043dd1952d77906a1a8366b30ad71011f9cff3959a",
+      "job_id": "d9e46pcjeosc73fiaj50",
       "qubit_mapping": {
         "a0b0": [
-          0,
-          1
+          21,
+          22
         ],
         "a0b1": [
-          0,
-          1
+          21,
+          22
         ],
         "a1b0": [
-          0,
-          1
+          21,
+          22
         ],
         "a1b1": [
-          0,
-          1
+          21,
+          22
         ]
       },
       "raw_counts": {
         "a0b0": {
-          "00": 1716,
-          "01": 279,
-          "10": 300,
-          "11": 1705
+          "00": 1745,
+          "01": 368,
+          "10": 319,
+          "11": 1568
         },
         "a0b1": {
-          "00": 274,
-          "01": 1645,
-          "10": 1722,
-          "11": 359
+          "00": 346,
+          "01": 1727,
+          "10": 1680,
+          "11": 247
         },
         "a1b0": {
-          "00": 1673,
-          "01": 297,
-          "10": 317,
-          "11": 1713
+          "00": 1657,
+          "01": 414,
+          "10": 382,
+          "11": 1547
         },
         "a1b1": {
-          "00": 1665,
-          "01": 302,
-          "10": 354,
-          "11": 1679
+          "00": 1666,
+          "01": 357,
+          "10": 410,
+          "11": 1567
         }
       },
       "slot": "D2",
       "witness": {
-        "S": 2.759,
-        "backend": "aer_sim::fez-sim",
+        "S": 2.5785,
+        "backend": "ibm_fez",
         "certified": true,
         "classical_bound": 2.0,
         "correlators": {
-          "a0b0": 0.7105,
-          "a0b1": -0.6835,
-          "a1b0": 0.693,
-          "a1b1": 0.672
+          "a0b0": 0.6565,
+          "a0b1": -0.7035,
+          "a1b0": 0.602,
+          "a1b1": 0.6165
         },
-        "n_sigma": 24.0017,
+        "n_sigma": 18.2938,
         "shots_per_setting": 4000,
         "slot": "D2",
         "threshold": 2.2,
@@ -165,67 +165,67 @@
       }
     },
     {
-      "backend": "aer_sim::marrakesh-sim",
-      "calibration_hash": "54b4e47024847fda0dc4193cfe1f603039301cc0b87a066cbe22a047dcc04c47",
-      "device_witness_hash": "6811dd967a1c9b20102e27d5e24d8d69a3036a48902bd9cc185ad6f12eae5a71",
-      "job_id": "SIM-marrakesh-sim-303",
+      "backend": "ibm_marrakesh",
+      "calibration_hash": "e6c16e41eaaa14d062c7d65aa40ec34106ef10db7a36786a325f47e6db340760",
+      "device_witness_hash": "85fc64316999d733048fa042366505c2e9c3263eaba1b6705c1ea0775f710860",
+      "job_id": "d9e4a5sinv1c73apq1pg",
       "qubit_mapping": {
         "a0b0": [
-          0,
-          1
+          1,
+          2
         ],
         "a0b1": [
-          0,
-          1
+          1,
+          2
         ],
         "a1b0": [
-          0,
-          1
+          1,
+          2
         ],
         "a1b1": [
-          0,
-          1
+          1,
+          2
         ]
       },
       "raw_counts": {
         "a0b0": {
-          "00": 1731,
-          "01": 291,
-          "10": 279,
-          "11": 1699
+          "00": 1759,
+          "01": 296,
+          "10": 303,
+          "11": 1642
         },
         "a0b1": {
-          "00": 291,
-          "01": 1699,
-          "10": 1695,
-          "11": 315
+          "00": 342,
+          "01": 1711,
+          "10": 1650,
+          "11": 297
         },
         "a1b0": {
-          "00": 1683,
-          "01": 315,
-          "10": 336,
-          "11": 1666
+          "00": 1687,
+          "01": 371,
+          "10": 342,
+          "11": 1600
         },
         "a1b1": {
-          "00": 1682,
-          "01": 294,
-          "10": 314,
-          "11": 1710
+          "00": 1739,
+          "01": 301,
+          "10": 266,
+          "11": 1694
         }
       },
       "slot": "D3",
       "witness": {
-        "S": 2.7825,
-        "backend": "aer_sim::marrakesh-sim",
+        "S": 2.741,
+        "backend": "ibm_marrakesh",
         "certified": true,
         "classical_bound": 2.0,
         "correlators": {
-          "a0b0": 0.715,
-          "a0b1": -0.697,
-          "a1b0": 0.6745,
-          "a1b1": 0.696
+          "a0b0": 0.7005,
+          "a0b1": -0.6805,
+          "a1b0": 0.6435,
+          "a1b1": 0.7165
         },
-        "n_sigma": 24.7448,
+        "n_sigma": 23.4325,
         "shots_per_setting": 4000,
         "slot": "D3",
         "threshold": 2.2,
@@ -238,20 +238,20 @@
   "experiment": "TRINITY-1",
   "external_entropy": {
     "ligo_gw150914_hash": "66c4b196",
-    "nist_beacon_pulse": 1865734,
-    "nist_timestamp": "2026-07-19T02:54:00.000Z",
-    "nist_value": "06DB6FEFDFBA1CCAD17F13C2A05FBEA6CCA16E96688ACD9AE7F0B9BB32241157EDDB5803BE02F85D29E7BBD0E5E5673ABD98D4A2B038844AD953611C97F58854"
+    "nist_beacon_pulse": 1865761,
+    "nist_timestamp": "2026-07-19T03:21:00.000Z",
+    "nist_value": "E6932F7765677B06BE14077F25DD22D027B3A0001383152E8B10D2DA23978D280656571B224A36217220476884E45A06F3179AC631BAD75F12436056076F8770"
   },
   "framework": "Coherent Inheritance Framework (CIF)",
-  "generated_at": "2026-07-19T02:57:21.864283+00:00",
+  "generated_at": "2026-07-19T03:31:45.428171+00:00",
   "governance": "ExecutionProof",
-  "mode": "SIMULATOR",
+  "mode": "HARDWARE",
   "public_claim": "A preregistered demonstration of one nonclassicality witness independently evaluated on three distinct quantum processors and fused into a single chain-linked, independently reconstructable ExecutionProof record.",
-  "record_hash": "07f508201b7718940e18d5bcb463bc4c7b7cfb94d63584e77a91efc86d5b2211",
+  "record_hash": "8d23accac81791fa10f1dba1be79a132168966c4620fc42d16de656bcf9d688b",
   "schema": "trinity-proofrecord-1.0",
   "shots_per_circuit": 4000,
   "shots_total": 48000,
   "trinity_certified": true,
-  "trinity_nonce": "deeecffb71e036bd5e1b5e021720f5265c30cfc12e13a44ea521a24cb1ad9e91",
+  "trinity_nonce": "508f0ad692a7bd3a1d1a069aa02f4dc2519560153f646220f2150bbe47270e2f",
   "witness_type": "Bell-CHSH"
 }

@@ -1,0 +1,29 @@
+[TRINITY-1] Built 4 CHSH circuits (identical witness for every device).
+[TRINITY-1] Fetching NIST beacon (fresh not-before anchor)...
+[TRINITY-1] NIST pulse 1865761 @ 2026-07-19T03:21:00.000Z
+[TRINITY-1] Authorized hardware run (token from env:IBM_QUANTUM_TOKEN). Running three devices...
+qiskit_runtime_service._discover_account:WARNING:2026-07-19 03:24:00,877: Loading account with the given token. A saved account will not be used.
+qiskit_runtime_service.__init__:WARNING:2026-07-19 03:24:02,819: Instance was not set at service instantiation. Free and trial plan instances will be prioritized. Based on the following filters: (tags: None, region: us-east, eu-de), and available plans: (open), the available account instances are: open-instance. If you need a specific instance set it explicitly either by using a saved account with a saved default instance or passing it in directly to QiskitRuntimeService(). Alternatively, pass instance='auto' or save it to your account for auto-selection without warning.
+qiskit_runtime_service.backends:WARNING:2026-07-19 03:24:02,819: Using instance: open-instance, plan: open
+[TRINITY-1]   [ibm_kingston] submitted job d9e46lcjeosc73fiaj00; polling...
+[TRINITY-1]   D1 ibm_kingston: S=2.7360 (VALID_ABOVE)
+qiskit_runtime_service._discover_account:WARNING:2026-07-19 03:24:16,830: Loading account with the given token. A saved account will not be used.
+qiskit_runtime_service.__init__:WARNING:2026-07-19 03:24:18,942: Instance was not set at service instantiation. Free and trial plan instances will be prioritized. Based on the following filters: (tags: None, region: us-east, eu-de), and available plans: (open), the available account instances are: open-instance. If you need a specific instance set it explicitly either by using a saved account with a saved default instance or passing it in directly to QiskitRuntimeService(). Alternatively, pass instance='auto' or save it to your account for auto-selection without warning.
+qiskit_runtime_service.backends:WARNING:2026-07-19 03:24:18,942: Using instance: open-instance, plan: open
+[TRINITY-1]   [ibm_fez] submitted job d9e46pcjeosc73fiaj50; polling...
+[TRINITY-1]   D2 ibm_fez: S=2.5785 (VALID_ABOVE)
+qiskit_runtime_service._discover_account:WARNING:2026-07-19 03:31:31,060: Loading account with the given token. A saved account will not be used.
+qiskit_runtime_service.__init__:WARNING:2026-07-19 03:31:32,906: Instance was not set at service instantiation. Free and trial plan instances will be prioritized. Based on the following filters: (tags: None, region: us-east, eu-de), and available plans: (open), the available account instances are: open-instance. If you need a specific instance set it explicitly either by using a saved account with a saved default instance or passing it in directly to QiskitRuntimeService(). Alternatively, pass instance='auto' or save it to your account for auto-selection without warning.
+qiskit_runtime_service.backends:WARNING:2026-07-19 03:31:32,907: Using instance: open-instance, plan: open
+[TRINITY-1]   [ibm_marrakesh] submitted job d9e4a5sinv1c73apq1pg; polling...
+[TRINITY-1]   D3 ibm_marrakesh: S=2.7410 (VALID_ABOVE)
+[TRINITY-1] Report + ProofRecord written to /home/ubuntu/trinity-testbeds/results
+[TRINITY-1] ==============================================================================
+[TRINITY-1] D1 ibm_kingston             S=2.7360  VALID_ABOVE
+[TRINITY-1] D2 ibm_fez                  S=2.5785  VALID_ABOVE
+[TRINITY-1] D3 ibm_marrakesh            S=2.7410  VALID_ABOVE
+[TRINITY-1] AGGREGATE EXECUTIONPROOF VERDICT: ALLOW
+[TRINITY-1] trinity_certified = True
+[TRINITY-1] trinity_nonce = 508f0ad692a7bd3a1d1a069aa02f4dc2519560153f646220f2150bbe47270e2f
+[TRINITY-1] record_hash   = 8d23accac81791fa10f1dba1be79a132168966c4620fc42d16de656bcf9d688b
+[TRINITY-1] ==============================================================================

@@ -236,12 +236,21 @@ def run_one_hardware(circuits, shots, token, backend_name):
 
     props = backend.properties()
     cal_source = str(props.last_update_date) if props else backend.name
-    # physical qubits after transpile (best-effort)
-    try:
-        phys = {n: [tqc[j].find_bit(q).index for q in tqc[j].qubits]
-                for j, n in enumerate(names)}
-    except Exception:  # noqa: BLE001
-        phys = {n: list(range(2)) for n in names}
+    # physical qubits actually used, per circuit, after transpilation.
+    # FIX (carried from OMNI-1 v1.1 erratum): use TranspileLayout.final_index_layout(), which
+    # returns ONLY the physical qubits the logical/virtual qubits landed on (ancillas filtered),
+    # instead of the full backend register (0..155). This makes the physical placement
+    # recoverable from the record.
+    phys = {}
+    for j, n in enumerate(names):
+        try:
+            layout = tqc[j].layout
+            if layout is not None:
+                phys[n] = [int(q) for q in layout.final_index_layout(filter_ancillas=True)]
+            else:
+                phys[n] = list(range(circuits[n].num_qubits))
+        except Exception:  # noqa: BLE001
+            phys[n] = list(range(circuits[n].num_qubits))
     backend_info = {
         "backend": backend.name,
         "job_id": job_id,
