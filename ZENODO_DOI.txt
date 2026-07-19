@@ -1,0 +1,22 @@
+TRINITY-1 Zenodo Publication
+============================
+
+CONCEPT DOI (always resolves to the latest version — cite this):
+  10.5281/zenodo.21436793
+  https://doi.org/10.5281/zenodo.21436793
+
+Version:
+  v1.0  DOI 10.5281/zenodo.21436794  (2026-07-19)  initial release with clarifications
+
+TRINITY-1: one preregistered Bell-CHSH nonclassicality witness independently evaluated on
+three distinct IBM Quantum processors (ibm_kingston, ibm_fez, ibm_marrakesh), with the three
+device-level records cryptographically fused into a single chain-linked, independently
+reconstructable ExecutionProof-governed evidence record.
+
+Aggregate verdict ALLOW; all three devices VALID_ABOVE (S=2.7360 / 2.5785 / 2.7410);
+independent verifier PASS.
+
+Published with TRINITY-1-CLARIFICATIONS.md addressing seven post-execution design-review points
+at the documentation layer (no measured value changed; sealed prereg + harness preserved).
+
+Cite the concept DOI (21436793) so readers always land on the latest version.
