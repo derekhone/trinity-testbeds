@@ -20,7 +20,8 @@ distinct quantum processors and fused into a single chain-linked ExecutionProof 
 - Record hash: `8d23accac81791fa10f1dba1be79a132168966c4620fc42d16de656bcf9d688b`
 - Chain — previous record (OMNI-1): `22ffb2ba137c89c2846225c6d5a11fb2a4dc6aaa6a0ba1dfe6864bc50393bb0c`
 - NIST beacon pulse: `1865761` @ 2026-07-19T03:21:00.000Z
-- Shots: 12,000 per circuit × 4 circuits × 3 devices = **48,000** total.
+- Shots: 4,000 per circuit × 4 circuits × 3 devices = **48,000** total (matches prereg + locked
+  harness `--shots` default; OMNI shot-count-consistency lesson honored).
 - **Independent verifier: PASS** (recomputes every S, verdict, witness hash, nonce, record
   hash, and the aggregate verdict from raw counts — no qiskit).
 

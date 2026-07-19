@@ -9,15 +9,24 @@ single chain-linked, independently reconstructable ExecutionProof record**.
 
 ## Public claim (kept narrow)
 
-> To our knowledge, the first preregistered ExecutionProof record in which one nonclassicality
-> witness is independently evaluated on three distinct quantum processors and the three
-> device-level results are cryptographically fused — with external entropy and a prior-record
-> chain link — into a single tamper-evident, independently reconstructable authorization
-> record.
+> To our knowledge, TRINITY-1 is an **unusual** preregistered demonstration in which one
+> Bell–CHSH nonclassicality witness is independently evaluated on **three distinct physical
+> quantum processors under a common provider environment (IBM)**, and the three device-level
+> records are cryptographically fused — with external entropy and a prior-record chain link —
+> into a single tamper-evident, independently reconstructable, ExecutionProof-**governed
+> evidence record**.
+
+**Wording, deliberately:** we say "unusual," not "first" — no historical-priority claim is made
+pending a formal literature/patent/standards review (see `TRINITY-1-CLARIFICATIONS.md`). The
+three processors are **distinct physical devices under one provider** — independent devices, but
+**not** independent vendors or independent trust domains. We call the output a **governed
+evidence record** (not an "authorization record") because TRINITY-1 produces evidence governed
+by ALLOW/HOLD/DENY/GATE-STOP logic; it does not yet intercept a named external action.
 
 **This is a robustness + multi-root-provenance demonstration — NOT** a device-independence
-claim, NOT a loophole closure, NOT entanglement between processors, NOT a security or
-randomness-certification proof. Locality and detection loopholes remain open on every device.
+claim, NOT a loophole closure, NOT entanglement between processors, NOT three-vendor
+independence, NOT a security or randomness-certification proof. Locality and detection loopholes
+remain open on every device.
 
 ## Verdict logic (preregistered, frozen)
 
