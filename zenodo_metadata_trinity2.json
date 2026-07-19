@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "upload_type": "dataset",
+    "title": "TRINITY-2: The Governed Action — Multi-Root Quorum ExecutionProof over a Simulated High-Impact Authorization",
+    "creators": [
+      {"name": "Hone, Derek", "affiliation": "Remnant Fieldworks Inc."}
+    ],
+    "description": "TRINITY-2: a preregistered demonstration in which a simulated high-impact enterprise action (a $500,000 payment authorization) is allowed, held, or denied by a single Bell-CHSH nonclassicality witness independently evaluated on three distinct IBM Quantum processors (ibm_kingston, ibm_fez, ibm_marrakesh — all Heron r2) and cryptographically fused into one chain-linked, independently reconstructable ExecutionProof record. A preregistered quorum rule (\u22652 of 3) with substitution/failover governs processor unavailability, and full calibration-snapshot hashing binds each device's submission-time state. Live-hardware result: D1 ibm_kingston S=2.7650, D2 ibm_fez S=2.7235, D3 ibm_marrakesh S=2.7235 (all PASS); quorum 3/3, not degraded; aggregate ExecutionProof verdict ALLOW \u2192 governed action AUTHORIZED; trinity_certified=True; independent verifier PASS. The payment is SIMULATED \u2014 no real funds, rail, or authority. Chain-linked to TRINITY-1 (record_hash 8d23accac81791fa10f1dba1be79a132168966c4620fc42d16de656bcf9d688b). Scope & honesty: this is experimental evidence, device-dependent, common-provider (three independent IBM devices, not independent vendors); it is NOT device-independent, NOT loophole closure, and NOT inter-processor entanglement. Coherent Inheritance Framework (CIF) \u00b7 Remnant Fieldworks Inc.",
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "keywords": [
+      "ExecutionProof",
+      "quantum computing",
+      "Bell test",
+      "CHSH inequality",
+      "cross-device verification",
+      "multi-root provenance",
+      "quorum authorization",
+      "governed action",
+      "Coherent Inheritance Framework",
+      "governed evidence",
+      "preregistration"
+    ],
+    "related_identifiers": [
+      {"identifier": "https://github.com/derekhone/trinity-testbeds", "relation": "isSupplementTo", "scheme": "url"},
+      {"identifier": "10.5281/zenodo.21436793", "relation": "references", "scheme": "doi"}
+    ],
+    "notes": "Chain: TRINITY-2 record_hash 4f6fa000e2bf3976a1d575267ecf188baf42f1c6caea9e717bf1fc1be6737dd0; previous record TRINITY-1 8d23accac81791fa10f1dba1be79a132168966c4620fc42d16de656bcf9d688b. Hardware jobs: ibm_kingston d9e7029htsac739dt2mg, ibm_fez d9e71lqneu4c739o3otg, ibm_marrakesh d9e71pcjeosc73fie1r0. Manifest lock verified intact before execution."
+  }
+}
