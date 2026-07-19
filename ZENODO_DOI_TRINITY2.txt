@@ -1,0 +1,8 @@
+TRINITY-2 Zenodo Publication
+============================
+
+CONCEPT DOI (cite this): 10.5281/zenodo.21438244
+  https://doi.org/10.5281/zenodo.21438244
+
+Version DOI: 10.5281/zenodo.21438245
+Record: https://zenodo.org/record/21438245

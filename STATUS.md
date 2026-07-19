@@ -38,7 +38,8 @@ funds, rail, or authority.
   governed-action decision, `governed_action_hash`, `fused_nonce`, and `record_hash`
   reconstructed from raw counts with no qiskit dependency; NIST + chain-link provenance OK.
 
-**Still open:** Zenodo publication (pending a rotated Zenodo token — GitHub push done).
+**PUBLISHED:** GitHub `derekhone/trinity-testbeds` + Zenodo — concept DOI
+**10.5281/zenodo.21438244** (cite this), version v1 DOI 10.5281/zenodo.21438245 (2026-07-19).
 
 ### Simulator validation (retained record — all branches confirmed pre-hardware)
 
