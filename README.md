@@ -65,16 +65,25 @@ python3 trinity_harness.py --scenario deny     # one device below classical -> D
 python3 trinity_verify.py
 ```
 
-## Hardware run — GATED (withheld)
+## Hardware execution — COMPLETE (2026-07-19)
 
-Per preregistration §8, the hardware run is withheld until **both** (a) the exposed IBM Quantum
-token has been **rotated** and (b) the run is **explicitly authorized**. When both are met:
+**TRINITY-1 executed on three live IBM Heron r2 processors.** Aggregate ExecutionProof verdict **ALLOW**; independent verifier **PASS**.
 
-```bash
-export IBM_QUANTUM_TOKEN="your-rotated-token"     # never commit or paste in chat
-python3 trinity_harness.py --authorize-hardware --allow-unrotated
-python3 trinity_verify.py
-```
+| Slot | Backend | S | nσ | Verdict | Job |
+|---|---|---|---|---|---|
+| D1 | `ibm_kingston` | 2.736 | 23.27 | VALID_ABOVE | `d9e46lcjeosc73fiaj00` |
+| D2 | `ibm_fez` | 2.5785 | 18.29 | VALID_ABOVE | `d9e46pcjeosc73fiaj50` |
+| D3 | `ibm_marrakesh` | 2.741 | 23.43 | VALID_ABOVE | `d9e4a5sinv1c73apq1pg` |
+
+- **Shots:** 4 CHSH circuits × 4,000 shots/circuit × 3 devices = **48,000 total**
+- **Classical bound:** |S| ≤ 2.0  ·  **Certification threshold:** S ≥ 2.2  ·  **Tsirelson bound:** 2√2 ≈ 2.828
+- **Cross-device spread (descriptive):** S_min 2.5785, S_max 2.741, mean 2.685, range 0.163, pop_std 0.076
+- **All three devices independently passed** — no device averaged away; aggregate verdict **ALLOW** (`trinity_certified = True`)
+- **Independent verification:** `trinity_verify.py` PASS (reconstructed all S values, verdicts, hashes, nonce, and record_hash from raw counts with no qiskit dependency)
+- **trinity_nonce:** `508f0ad692a7bd3a1d1a069aa02f4dc2519560153f646220f2150bbe47270e2f`
+- **record_hash:** `8d23accac81791fa10f1dba1be79a132168966c4620fc42d16de656bcf9d688b`
+
+See `results/TRINITY-1-report.md` and `results/TRINITY-1-proofrecord.json` for full details.
 
 ## Scope & honesty
 
