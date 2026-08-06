@@ -1,3 +1,9 @@
+> **Repository Role:** Preregistered Experiment Series — Three-Processor CHSH Fusion (TRINITY) · Part of the [Remnant Fieldworks](https://remnantfieldworks.com) research and product ecosystem
+
+**Where this fits:** This repository is part of the Remnant Fieldworks quantum witness research program — a high-adversity test environment for provenance and execution integrity that informs the [ExecutionProof](https://executionproof.io) governance architecture. The quantum series tests whether nonclassical entropy sources, Bell-inequality violations, and tamper-evident records can serve as authorization evidence components in ProofRecords. TRINITY executes one Bell-CHSH witness independently across three separate physical quantum processors and fuses the results.
+
+---
+
 # TRINITY — The Three-Processor Witness
 
 **Remnant Fieldworks Inc. · Coherent Inheritance Framework (CIF) · ExecutionProof-governed**
