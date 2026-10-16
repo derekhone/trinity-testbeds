@@ -128,3 +128,7 @@ only. TRINITY-2's payment is simulated. Experimental evidence + governance demon
 a universal proof.
 
 *Proof Before Power · Verification Before Execution · claims kept narrower than the evidence.*
+
+### License scope
+
+See [LICENSE-SCOPE.md](LICENSE-SCOPE.md). No new blanket grant is made; existing permissions are preserved.
